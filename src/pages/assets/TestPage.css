@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    background: rgba(0, 0, 0, 0.4)
+}
+
+.header img {
+    width: 50px;
+    cursor: pointer;
+}
+
+.header a {
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+#search-bar {
+    border: 0;
+    padding: 15px;
+    border-radius: 30px;
+    background-image: url(../../logo.svg);
+    background-origin: padding-box;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+.header nav{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    width: 100%;
+    height: 12%;
+    background-color: rgba(0, 0, 0, 0.5);
+    flex: 1;
+    padding-right: 8%;
+}
+
+.header nav ul {
+    text-align: right;
+}
+.header nav ul li {
+    display: inline-block;
+    margin: 20px;
+}
+.header nav ul li a:hover {
+    color: aquamarine;
+}
+.left-menu {
+    background-color: aliceblue;
+    height: 20px;
+    width: 400px;
+}
+.menu {
+    display: flex;
+    align-items: center;
+}
+.btn {
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 0;
+    border-radius: 20px;
+    background-color: aqua;
+    font: optional;
+    font-weight: 700;
+    cursor: pointer;
+
+}
+.btn:hover{
+    background-color: aquamarine;
+    color: darkslategray;
+}
+
+.row {
+    width: 100%;
+    height: 88vh;
+    
+    display: flex;
+    box-sizing: border-box;
+}
+.col {
+    width: 75%;
+    height: 88vh;
+    
+}
+
+.right-col {
+    width: 25%;
+    height: 88vh;
+    
+
+}
+
+.side-bar{
+    color: brown;
+    box-sizing: border-box;
+    padding: 40px;
+}
+.side-bar ul li {
+    font-weight: 600;
+}
+
+.back-video {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+}
