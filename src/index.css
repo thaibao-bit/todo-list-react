@@ -161,6 +161,43 @@ button {
     align-items: center;
 }
 
-.test {
-    background-color: aqua;
+.right-content {
+    background-color: rgba(255, 255, 255, 0.4);
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+}
+
+.left-menu {
+    box-sizing: border-box;
+    display: list-item;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    font-feature-settings: "tnum";
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    list-style-position: outside;
+    list-style-type: none;
+    
+}
+.left-menu a {
+    color: aquamarine;
+    text-decoration: none;
+}
+
+.left-menu a span {
+    border-left-width: 5px;
+    border-left-color: aqua;
+    border-left-style: solid;
+    margin-right: 10px;
+}
+
+.row-10 {
+    padding-top: 2%;
+    box-sizing: border-box;
+    display: flex;
+    height: 84%;
+    margin-left: 8%;
+    margin-right: 8%;
+
 }

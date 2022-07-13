@@ -30,12 +30,12 @@ function App() {
       
       
         <Routes>
-          <Route exact path="/" element={<FirstPage/>}/>
-          <Route exact path="/tasks" element={<Task/>}/>
-          <Route exact path="/messages" element={<SecondPage/>}/>
-          <Route exact path="/about" element={<ThirdPage/>}/>
-          <Route exact path='/login' element= {<Login/>}/>
-          <Route exact path='/signup' element= {<Signup/>} />
+          <Route path="/" element={<FirstPage/>}/>
+          <Route path="/tasks/*" element={<Task/>}/>
+          <Route path="/messages" element={<SecondPage/>}/>
+          <Route path="/about" element={<ThirdPage/>}/>
+          <Route path='/login' element= {<Login/>}/>
+          <Route path='/signup' element= {<Signup/>} />
           </Routes>
         </div>
         </div>

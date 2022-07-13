@@ -1,14 +1,14 @@
 import BlockContent from "../components/blockcontent"
 import Card from "../components/card"
-
-function Today(){
+function Done(){
     return <BlockContent>
-        <h1>Today Tasks</h1>
+        <h1>Done Tasks</h1>
         <Card/>
         <Card/>
         <Card/>
-        
+        <Card/>
+        <Card/>
         </BlockContent>
 }
 
-export default Today
+export default Done
